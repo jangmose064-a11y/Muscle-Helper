@@ -1,0 +1,179 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muscle Helper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">💪 Muscle Helper</div>
+
+        <nav>
+            <a href="#workout">Workout</a>
+            <a href="#aerobic">Aerobic</a>
+            <a href="#music">Worship Music</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h1>Train Your Body & Strengthen Your Spirit</h1>
+
+            <p>
+                Choose a muscle group and your fitness level to find
+                recommended exercises.
+            </p>
+
+            <div class="verse">
+                <p>
+                    "I can do all things through Christ who strengthens me."
+                </p>
+
+                <span>Philippians 4:13</span>
+            </div>
+        </section>
+
+
+        <section id="workout" class="section">
+
+            <h2>Choose Your Target Muscle</h2>
+
+            <div class="muscle-buttons">
+                <button onclick="selectMuscle('Chest')">Chest</button>
+                <button onclick="selectMuscle('Back')">Back</button>
+                <button onclick="selectMuscle('Shoulders')">Shoulders</button>
+                <button onclick="selectMuscle('Arms')">Arms</button>
+                <button onclick="selectMuscle('Legs')">Legs</button>
+                <button onclick="selectMuscle('Abs')">Abs</button>
+            </div>
+
+
+            <h2>Choose Your Level</h2>
+
+            <div class="level-buttons">
+                <button onclick="selectLevel('Beginner')">
+                    Beginner
+                </button>
+
+                <button onclick="selectLevel('Intermediate')">
+                    Intermediate
+                </button>
+
+                <button onclick="selectLevel('Advanced')">
+                    Advanced
+                </button>
+            </div>
+
+
+            <div id="selection-status">
+                <p>
+                    Select a muscle group and fitness level.
+                </p>
+            </div>
+
+
+            <div id="exercise-results" class="exercise-grid"></div>
+
+        </section>
+
+
+        <section id="aerobic" class="section">
+
+            <h2>🏃 Aerobic Exercise</h2>
+
+            <p class="section-description">
+                Improve your cardiovascular fitness with these aerobic exercises.
+            </p>
+
+            <div class="aerobic-grid">
+
+                <div class="exercise-card">
+                    <h3>Walking</h3>
+                    <p>
+                        Great for beginners and everyday cardiovascular health.
+                    </p>
+                    <span>Beginner</span>
+                </div>
+
+
+                <div class="exercise-card">
+                    <h3>Running</h3>
+                    <p>
+                        Build endurance and improve cardiovascular fitness.
+                    </p>
+                    <span>Intermediate</span>
+                </div>
+
+
+                <div class="exercise-card">
+                    <h3>Cycling</h3>
+                    <p>
+                        A low-impact aerobic exercise for endurance.
+                    </p>
+                    <span>Beginner - Advanced</span>
+                </div>
+
+
+                <div class="exercise-card">
+                    <h3>Jumping Jacks</h3>
+                    <p>
+                        A simple full-body exercise that raises your heart rate.
+                    </p>
+                    <span>Beginner - Intermediate</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="music" class="section">
+
+            <h2>🎵 Worship Music</h2>
+
+            <p class="section-description">
+                Stay motivated during your workout with worship music.
+            </p>
+
+            <div class="music-card">
+
+                <h3>Worship Playlist</h3>
+
+                <p>
+                    Music recommendations will be connected to a worship
+                    music service in a future version.
+                </p>
+
+                <div class="placeholder">
+                    🎧 Music Recommendation Placeholder
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>Muscle Helper © 2026</p>
+
+        <p>
+            Fitness for the body. Worship for the soul.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
